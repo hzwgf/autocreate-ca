@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 mkdir /root/ca/intermediate;
 cp cnf/intermediate-ca /root/ca/intermediate/openssl.cnf
 cd /root/ca/intermediate;

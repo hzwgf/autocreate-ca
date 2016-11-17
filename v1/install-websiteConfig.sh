@@ -1,4 +1,6 @@
+#!/usr/bin/env bash
 cd /root/ca;
+
 openssl genrsa -aes256 \
       -out intermediate/private/www.barretlee.com.key.pem 2048;
 chmod 400 intermediate/private/www.barretlee.com.key.pem;
